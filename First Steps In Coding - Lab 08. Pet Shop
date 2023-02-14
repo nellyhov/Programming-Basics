@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class PetShop {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner (System.in);
+        int packsDogs = Integer.parseInt(scanner.nextLine());
+        int packsCats = Integer.parseInt(scanner.nextLine());
+        double amountDogs = packsDogs * 2.5;
+        double amountCats = packsCats * 4;
+        double total = amountCats + amountDogs;
+        System.out.println( total + " lv.");
+
+
+    }
+}
