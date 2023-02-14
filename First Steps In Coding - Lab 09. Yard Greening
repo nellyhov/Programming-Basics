@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class YeardGreening {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double yardArea = Double.parseDouble(scanner.nextLine()) * 7.61;
+        double discount = 0.18 * yardArea;
+        System.out.println("The final price is: " + (yardArea - discount) + " lv.");
+        System.out.println("The discount is: " + discount + " lv.");
+
+    }
+}
